@@ -6,7 +6,8 @@ export type TPathNames =
     | 'productsFavourites'
     | 'createTodo'
     | 'editTodo'
-    | 'users';
+    | 'users'
+    | 'notFound';
 
 export type TNavigation = {
     path: string;

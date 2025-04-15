@@ -8,6 +8,7 @@ import CreateTodoPage from '../components/pages/CreateTodoPage';
 import EditTodoPage from '../components/pages/EditTodoPage';
 import UsersPage from '../components/pages/UsersPage';
 import ProductsPage from '../components/pages/ProductsPage';
+import NotFoundPage from '../components/pages/NotFoundPage';
 
 const AppRouter: React.FC = () => {
     return (
@@ -22,6 +23,7 @@ const AppRouter: React.FC = () => {
                 <Route path={Paths.editTodo.path} element={<EditTodoPage />} />
                 <Route path={Paths.users.path} element={<UsersPage />} />
                 <Route path={Paths.products.path} element={<ProductsPage />} />
+                <Route path={Paths.notFound.path} element={<NotFoundPage />} />
             </Route>
         </Routes>
     );

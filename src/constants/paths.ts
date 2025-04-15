@@ -17,6 +17,10 @@ const basePaths = {
         path: '/products',
         title: 'Products',
     },
+    notFound: {
+        path: '*',
+        title: 'Not found',
+    },
 };
 
 export const Paths: TPaths = {
