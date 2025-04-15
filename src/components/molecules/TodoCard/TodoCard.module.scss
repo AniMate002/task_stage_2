@@ -1,0 +1,46 @@
+@use '../../../constants/style.constants.scss' as constants;
+
+$verticalPadding: 20px;
+$horizontalPadding: 30px;
+
+.container {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    background-color: constants.$dark-grey;
+    padding: $verticalPadding $horizontalPadding;
+    position: relative;
+
+    .status {
+        font-weight: bold;
+        font-size: 12px;
+        text-transform: uppercase;
+        border-radius: constants.$border-radius;
+        width: fit-content;
+        padding: 7px 10px;
+    }
+
+    h2 {
+        margin-top: 10px;
+    }
+
+    p {
+        color: constants.$text-grey;
+
+        display: -webkit-box;
+        display: box;
+        -webkit-line-clamp: 4;
+        line-clamp: 4;
+        -webkit-box-orient: vertical;
+        box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .editAndDeleteContainer {
+        display: flex;
+        gap: 10px;
+        position: absolute;
+        bottom: $verticalPadding;
+        left: $horizontalPadding;
+    }
+}

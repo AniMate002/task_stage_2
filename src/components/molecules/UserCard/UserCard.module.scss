@@ -1,0 +1,43 @@
+@use '../../../constants/style.constants.scss' as constants;
+
+$verticalpadding: 20px;
+$horizontalpadding: 30px;
+
+.container {
+    display: flex;
+    background-color: constants.$dark-grey;
+    height: 300px;
+    width: 250px;
+    padding: $verticalpadding $horizontalpadding;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .image_wrapper {
+        background-color: constants.$grey;
+        padding: 20px;
+        border-radius: 50%;
+        overflow: hidden;
+        height: 150px;
+        width: 150px;
+        img {
+            user-select: none;
+        }
+    }
+
+    .username {
+        font-weight: bold;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .email,
+    .phone {
+        color: constants.$text-grey;
+        text-align: center;
+    }
+
+    .phone {
+        font-size: small;
+    }
+}

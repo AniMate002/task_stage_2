@@ -1,0 +1,7 @@
+@use '../../../constants/style.constants.scss' as constants;
+
+.container {
+    background-color: constants.$dark-grey;
+    border-radius: constants.$border-radius;
+    padding: 7px 20px;
+}

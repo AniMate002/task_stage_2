@@ -1,0 +1,12 @@
+.container {
+    background-color: transparent;
+    color: white;
+    font-size: small;
+    text-decoration: underline;
+    opacity: 0.5;
+    transition: all 0.2s ease;
+}
+
+.container:hover {
+    opacity: 1;
+}

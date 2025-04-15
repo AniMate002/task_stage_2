@@ -1,0 +1,10 @@
+@use './constants/style.constants.scss' as constants;
+
+body {
+    background-color: constants.$grey;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}

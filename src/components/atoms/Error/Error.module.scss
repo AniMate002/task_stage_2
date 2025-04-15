@@ -1,0 +1,12 @@
+@use '../../../constants/style.constants.scss' as constants;
+
+.container {
+    color: constants.$text-grey;
+    font-size: large;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 25px;
+}

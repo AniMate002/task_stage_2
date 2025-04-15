@@ -1,0 +1,14 @@
+@use '../../../constants/style.constants.scss' as constants;
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+.active_tab_button {
+    scale: 1.1;
+    outline: 1px solid constants.$text-grey;
+}

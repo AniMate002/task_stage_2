@@ -1,0 +1,16 @@
+@use '../../../constants/style.constants.scss' as constants;
+
+.container {
+    background-color: constants.$dark-grey;
+    border-radius: constants.$border-radius;
+    padding: 7px 20px;
+    transition: all 0.2s ease;
+    &:active {
+        scale: 1.1;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}

@@ -1,0 +1,11 @@
+.container {
+    font-weight: bold;
+    color: white;
+    opacity: 0.6;
+    letter-spacing: 2px;
+    transition: all 0.2s ease;
+}
+
+.container:hover {
+    opacity: 1;
+}
