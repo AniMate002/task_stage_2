@@ -32,7 +32,6 @@ const EditTodoPage: React.FC = () => {
             todo={todo}
         />
     );
-    // return <h1>{id}</h1>;
 };
 
 export default EditTodoPage;

@@ -1,5 +1,5 @@
-export const LOCAL_STORAGE_KEY_TODO = 'todoapptestinternjgjekd';
-export const LOCAL_STORAGE_KEY_PRODUCTS = 'productsapptestinternjgjekd';
+export const LOCAL_STORAGE_KEY_TODO = 'todo_app_test_intern';
+export const LOCAL_STORAGE_KEY_PRODUCTS = 'products_app_test_intern';
 export const BASE_URL_JSPLACEHOLDER = 'https://jsonplaceholder.typicode.com';
 export const BASE_URL_SHOP_PRODUCTS = 'https://fakestoreapi.com/products';
 export const OFFSET = 'offset';

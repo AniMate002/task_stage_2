@@ -18,7 +18,6 @@ const UsersSearchBar: React.FC<UsersSearchBarProps> = ({
     const handleFormSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         handleUserSearchByName(searchQuery);
-        // setSearchQuery('');
     };
     const handleFormReset = () => {
         handleUserSearchByName('');

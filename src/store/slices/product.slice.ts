@@ -50,7 +50,6 @@ const productsSlice = createSlice({
                 LOCAL_STORAGE_KEY_PRODUCTS,
                 state.favouriteProducts
             );
-            // alert(action.payload);
         },
     },
     extraReducers: (builder) => {
